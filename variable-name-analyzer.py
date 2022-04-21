@@ -114,7 +114,6 @@ for file_name in os.listdir(filesPath):
             variable_names = accumulate_variables(file_lines)
             function_names = accumulate_functions(file_lines)
             comments = accumulate_comments(file_lines)
-            print(comments)
     else:
         continue
 
